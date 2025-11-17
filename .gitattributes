@@ -1,0 +1,9 @@
+NPMBench/**/*.npy filter=lfs diff=lfs merge=lfs -text
+NPMBench/**/*.npz filter=lfs diff=lfs merge=lfs -text
+NPMBench/**/*.pkl filter=lfs diff=lfs merge=lfs -text
+NPMBench/**/*.json filter=lfs diff=lfs merge=lfs -text
+NPMBench/**/*.graphml filter=lfs diff=lfs merge=lfs -text
+NPMBench/**/*.bin filter=lfs diff=lfs merge=lfs -text
+NPMBench/**/*.h5 filter=lfs diff=lfs merge=lfs -text
+NPMBench/**/*.gz filter=lfs diff=lfs merge=lfs -text
+NPMBench/**/*.zip filter=lfs diff=lfs merge=lfs -text
