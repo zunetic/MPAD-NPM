@@ -80,20 +80,6 @@ MPAD-NPM/
 
 ---
 
-## Baseline Performance
-
-Evaluation on test set (1,682 packages):
-
-| Metric | Value |
-|--------|-------|
-| Accuracy | 96.43% |
-| Precision | 97.13% |
-| Recall | 95.69% |
-| F1-Score | 96.41% |
-| False Positive Rate | 2.82% |
-
----
-
 ## Installation
 
 ```bash
