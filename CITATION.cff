@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use MPAD-NPM in your research, please cite it as below."
+type: dataset
+title: "MPAD-NPM: Multimodal Package Analysis Dataset for npm Security"
+authors:
+  - family-names: "Iqbal"
+    given-names: "Tahir"
+    orcid: "https://orcid.org/0000-0001-9354-0492"
+    affiliation: "School of Software Technology, Dalian University of Technology"
+    email: "tahir.biit@gmail.com"
+abstract: >
+  MPAD-NPM is a reproducible benchmark dataset for malicious package detection 
+  in the npm ecosystem. It contains 11,214 npm packages (7,000 benign, 4,214 malicious) 
+  spanning 2015-2024, with unified multimodal features: package metadata (137D), 
+  dependency graph embeddings via Graph Attention Networks (800D), and API behavioral 
+  semantics via BERT encoding (768D). The dataset supports reproducible research in 
+  software supply chain security with publicly released preprocessing pipelines.
+keywords:
+  - malicious package detection
+  - npm security
+  - software supply chain
+  - supply chain attacks
+  - multimodal learning
+  - benchmark dataset
+  - graph neural networks
+  - dependency analysis
+  - API behavioral analysis
+  - cybersecurity
+license: CC-BY-4.0
+repository-code: "https://github.com/zunetic/MPAD-NPM"
+url: "https://github.com/zunetic/MPAD-NPM"
+version: "1.0.0"
+date-released: "2025-11-19"
+references:
+  - type: article
+    authors:
+      - family-names: "Iqbal"
+        given-names: "Tahir"
+    title: "MPAD-Guard: Enhanced Malicious Package Detection via Novel Fusion of API Calls and Dependency Graph in npm Ecosystem"
+    journal: "International Journal of Information Security"
+    year: 2025
+    publisher:
+      name: "Springer"
+    notes: "Manuscript under review"
